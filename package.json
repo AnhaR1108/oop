@@ -2,7 +2,7 @@
   "name": "oop",
   "version": "1.0.0",
   "description": "",
-  "main": "index",
+  "main": "index.html",
   "directories": {
     "doc": "doc"
   },
