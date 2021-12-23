@@ -1,0 +1,358 @@
+<html>
+    <head>
+        <title>TemanBacaku</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="icon" href="gambar/icn.png" type="image/png" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="src/program.js"></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <style>
+        .glow { 
+            font-size: 40px;
+            color: #fff;
+            text-align: center;
+            -webkit-animation: glow 1s ease-in-out infinite alternate;
+            -moz-animation: glow 1s ease-in-out infinite alternate;
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+        .fo{
+          background-image: url("gambar/s.jpg");
+			    background-size: cover;
+        }
+        .p{
+            font: 1em sans-serif;
+            color: #fff;
+            }
+        .rig{
+          float: right;
+          display: block;
+          cursor: pointer;
+          margin:10px;
+        }
+        .footer {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color: rgb(0, 162, 255);
+          color: white;
+          text-align: center;
+        }
+    </style>
+    
+    </head>
+    <body>
+        <header class="header_area">
+            <div class="main_menu block">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a class="navbar-brand logo_h" href="index.html">
+                                <img src="gambar/logo.png" alt="logo" style="width:250px;">
+                            </a>
+                            
+                        </div>
+                            <ul class="nav nav-pills ">
+                                <li class="nav-item ">
+                                <a class="nav-link active" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="ebaut.html">Ebaut</a>
+                                </li>
+                                <form class="form-inline my-1 my-lg-1 rig">
+                                  <input class="form-control my-0 my-sm-0 " type="search" placeholder="Search.." >
+                                  <button class="btn btn-outline-primary my-0 my-sm-0 " type="submit"><i class='fas fa-search'></i></button>
+                                </form> 
+                            </ul>  
+                    </div>                
+                </nav>
+            </div>
+        </header>
+        <section class="jumbotron text-center fo" >
+            <div class="container block">
+              <h1 class="Jumbotron-heading glow">Selamat Datang</h1>
+              <p></p>
+              <p class="P" >Kami menyediakan bnyak buku menarik untuk anda baca</p>
+              <div id="bantuan"></div>
+            </div>
+        </section>
+        <section class="jumbotron">
+          <div class="rel py-1 bg-light block display">
+              <header class="header">
+                <h2>
+                  <a href="terbaru.html">ROMANTIS</a>
+                </h2>
+              </header>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-2 item" >
+                    <div class="card card-inverse nborder border-primary mb-2">
+                      <img class="card-img-top" src="gambar/youhadme.jpg"  >
+                      <div class="card-body">
+                        <h5 class="card-title">You Had Me at Hello</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-groub" id="b1">
+                            <!-- <button type="button" class="btn btn-outline-primary btn-sm" name="button" id="b1"><a href="YouHadMe.html">baca</a></button> -->
+                          </div>
+                          <small class="text-muted"><i class="fa fa-eye"></i><span>0</span></small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-2 item" >
+                    <div class="card card-inverse nborder border-primary mb-2">
+                      <img class="card-img-top" src="gambar/withjulian.jpg"  >
+                      <div class="card-body">
+                        <h5 class="card-title">With Julian - Wulan Fadila</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-groub" id="b2">
+                          </div>
+                          <small class="text-muted"><i class="fa fa-eye"></i><span>0</span></small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-2 item" >
+                    <div class="card card-inverse nborder border-primary mb-2">
+                      <img class="card-img-top" src="gambar/winter.jpg"  >
+                      <div class="card-body">
+                        <h5 class="card-title">Winter In Tokyo</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-groub" id="b3">
+                          </div>
+                          <small class="text-muted"><i class="fa fa-eye"></i><span>0</span></small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-2 item" >
+                    <div class="card card-inverse nborder border-primary mb-2">
+                      <img class="card-img-top" src="gambar/weding.jpg"  >
+                      <div class="card-body">
+                        <h5 class="card-title">weding romance</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-groub" id="b4">
+                          </div>
+                          <small class="text-muted"><i class="fa fa-eye"></i><span>0</span></small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-2 item" >
+                    <div class="card card-inverse nborder border-primary mb-2">
+                      <img class="card-img-top" src="gambar/dilan1990.jpg"  >
+                      <div class="card-body">
+                        <h5 class="card-title">Dilan 1990</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-groub" id="b5">
+                          </div>
+                          <small class="text-muted"><i class="fa fa-eye"></i><span>0</span></small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-2 item" >
+                    <div class="card card-inverse nborder border-primary mb-2">
+                      <img class="card-img-top" src="gambar/dilan1991.jpg">
+                      <div class="card-body">
+                        <h5 class="card-title">Dilan 1991</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-groub" id="b6">
+                          </div>
+                          <small class="text-muted"><i class="fa fa-eye"></i><span>0</span></small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        
+          <div class="rel py-1 bg-light block">
+              <header class="header">
+                <h2>
+                  <a href="Populer.html">HOROR</a>
+                </h2>
+              </header>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-2 col-sm-2 col-xs-4 item">
+                    <div class="card border border-primary mb-2">
+                      <img class="card-img-top" src="gambar/pembunuhan.jpg">
+                      <div class="card-body">
+                        <h6 class="card-title">PEMBUNUHAN DI PONDOKAN MAHASISWA</h6>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-groub" id="b7">
+                          </div>
+                          <small class="text-muted"><i class="fa fa-eye"></i><span>0</span></small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 col-sm-2 col-xs-4 item">
+                    <div class="card border border-primary mb-2">
+                      <img class="card-img-top" src="gambar/lapangan.jpg">
+                      <div class="card-body">
+                        <h5 class="card-title">LAPANGAN GOLF MAUT</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-groub" id="b8">
+                          </div>
+                          <small class="text-muted"><i class="fa fa-eye"></i><span>0</span></small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 col-sm-2 col-xs-4 item">
+                    <div class="card border border-primary mb-2">
+                      <img class="card-img-top" src="gambar/death.jpg" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">death on kamera</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-groub" id="b9">
+                          </div>
+                          <small class="text-muted"><i class="fa fa-eye"></i><span>0</span></small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 col-sm-2 col-xs-4 item">
+                    <div class="card border border-primary mb-2">
+                      <img class="card-img-top" src="gambar/kosong.jpg" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">kosong</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-groub" id="b10">
+                          </div>
+                          <small class="text-muted"><i class="fa fa-eye"></i><span>0</span></small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 col-sm-2 col-xs-4 item">
+                    <div class="card border border-primary mb-2">
+                      <img class="card-img-top" src="gambar/teror.jpg" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">Teror berantai</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-groub" id="b11">
+                          </div>
+                          <small class="text-muted"><i class="fa fa-eye"></i><span>0</span></small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 col-sm-2 col-xs-4 item">
+                    <div class="card border border-primary mb-2">
+                      <img class="card-img-top" src="gambar/buku.png" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">Title</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-groub" id="b12">
+                          </div>
+                          <small class="text-muted"><i class="fa fa-eye"></i><span>65</span></small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="rel py-1 bg-light block">
+            <header class="header">
+              <h2>
+                <a href="Populer.html">FIKSI</a>   
+              </h2>
+            </header>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-2 col-sm-2 col-xs-4 item">
+                  <div class="card border border-primary mb-2">
+                    <img class="card-img-top" src="gambar/duacinta.png">
+                    <div class="card-body">
+                      <h5 class="card-title">Dua Cinta Negri sakura</h5>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-groub" id="b13">
+                        </div>
+                        <small class="text-muted"><i class="fa fa-eye"></i><span>199</span></small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-sm-2 col-xs-4 item">
+                  <div class="card border border-primary mb-2">
+                    <img class="card-img-top" src="gambar/apapun.png">
+                    <div class="card-body">
+                      <h5 class="card-title">Apapun Selain Hujan</h5>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-groub" id="b14">
+                        </div>
+                        <small class="text-muted"><i class="fa fa-eye"></i><span>0</span></small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-sm-2 col-xs-4 item">
+                  <div class="card border border-primary mb-2">
+                    <img class="card-img-top" src="gambar/abinca.png  ">
+                    <div class="card-body">
+                      <h5 class="card-title">A Bin</h5>
+                      <h5>Ca</h5>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-groub" id="b15">
+                        </div>
+                        <small class="text-muted"><i class="fa fa-eye"></i><span>0</span></small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-sm-2 col-xs-4 item">
+                  <div class="card border border-primary mb-2">
+                    <img class="card-img-top" src="gambar/negri5.jpg" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Negri lima menara</h5>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-groub" id="b16">
+                        </div>
+                        <small class="text-muted"><i class="fa fa-eye"></i><span>0</span></small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-sm-2 col-xs-4 item">
+                  <div class="card border border-primary mb-2">
+                    <img class="card-img-top" src="gambar/pemimpi.jpg" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Sang Pemimpi</h5>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-groub" id="b17">
+                        </div>
+                        <small class="text-muted"><i class="fa fa-eye"></i><span>0</span></small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-sm-2 col-xs-4 item">
+                  <div class="card border border-primary mb-2">
+                    <img class="card-img-top" src="gambar/buku.png" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Title</h5>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-groub" id="b18">
+                        </div>
+                        <small class="text-muted"><i class="fa fa-eye"></i><span>0</span></small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <div class="footer">
+          <h6>selamat membaca semoga harimu menyenangkan</h4>
+        </div> 
+      </div>
+    </body> 
